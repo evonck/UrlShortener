@@ -1,0 +1,11 @@
+maxSizeUrl: 6
+server:
+  type: simple
+  applicationContextPath: /
+  adminContextPath: /admin
+  connector:
+    type: http
+    port: 8080
+redis:
+  hostname: localhost
+  port: 6379
